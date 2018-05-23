@@ -1,0 +1,14 @@
+/* pages/tab/index.wxss */
+.room_type{
+  margin: 20rpx;
+  font-size: 50rpx;
+  color: lightsalmon
+}
+.room_info{
+  font-size: 40rpx; 
+  margin: 20rpx;
+  color: lightblue
+}
+.selected{
+  background: red;
+}
