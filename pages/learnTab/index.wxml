@@ -2,6 +2,7 @@
 <view>
   <text class="room_type {{item.d ? 'selected' : ''}}" wx:for="{{roomType.data.house_type}}" wx:key="" data-index="{{index}}"  bindtap="clickRoomType">{{item.room_str}}</text>
   <!-- data-lists="{{lists}}"  -->
+  
 </view>
 <view class="room_info"  wx:for="{{houseInfo.lists}}" wx:key="">
   <view>{{item.title}}</view>
