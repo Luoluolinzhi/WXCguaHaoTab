@@ -138,6 +138,7 @@ Page({
       houseInfo: res.data.house_type[0],
     })
   },
+  
   clickRoomType: function(event){
     var roomTypeTemp = this.data.roomType;
     var index = event.currentTarget.dataset.index;
