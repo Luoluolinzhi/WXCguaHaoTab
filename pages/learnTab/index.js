@@ -7,6 +7,7 @@ Page({
   data: {
     roomType:{},
     houseInfo:{},
+    lists:[]
   },
 
   /**
@@ -149,4 +150,17 @@ Page({
       houseInfo: roomTypeTemp.data.house_type[index],
     })
   },
+  // clickRoomType: function (event) {
+  //   var roomTypeTemp = this.data.roomType;
+  //   var index = event.currentTarget.dataset.index;
+  //   roomTypeTemp.data.house_type.forEach(function (item) {
+  //     item.d = false;
+  //   })
+  //   roomTypeTemp.data.house_type[index].d = true;
+  //   var lists = event.currentTarget.dataset.lists;
+  //   this.setData({
+  //     roomType: roomTypeTemp,
+  //     lists : lists
+  //   })
+  // },
 })
